@@ -40,7 +40,6 @@ def  full?(board)
   end
   board_valid
 end
-
 def draw?(board)
 
 if won?(board).class == Array
@@ -51,7 +50,6 @@ if won?(board).class == Array
           false
 end
 end
-
 def over?(board)
   if full?(board) == true
       true
@@ -62,10 +60,8 @@ def over?(board)
         true
   elsif full?(board) == false && won?(board).class == Array
         true
-
  end
+end
 
-
-
-
+def winner(board)
 end
